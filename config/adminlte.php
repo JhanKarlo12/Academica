@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Sistema Academico',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Sistema Academico </b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -301,7 +301,8 @@ return [
             'topnav_right' => true,
         ],
 
-        // Sidebar items:
+        // Sidebar items
+        /*
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
@@ -318,17 +319,42 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+
+        */
+        ['header' => 'Sistema de Información'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
+            'text' => 'Facultades',
+            'url'  => '/facultades/listado',
+            'icon' => 'fas fa-fw fa-home',
+        ],
+        [
+            'text' => 'Programas',
+            'url'  => '/programas/listado',
+            'icon' => 'fas fa-fw fa-list',
+        ],
+        [
+            'text' => 'Profesores',
+            'url'  => '/profesores/listado',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Estudiantes',
+            'url'  => '/estudiantes/listado',
+            'icon' => 'fas fa-fw fa-users',
         ],
+        [
+            'text' => 'Calificaciones',
+            'url'  => '/regnotas/listado',
+            'icon' => 'fas fa-fw fa-book',
+        ],
+
+        [
+            'text' => 'Reportes',
+            'url'  => '/reportes/listado',
+            'icon' => 'fas fa-fw fa-book',
+        ],
+
+        /*
         [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
@@ -383,6 +409,7 @@ return [
             'icon_color' => 'cyan',
             'url'        => '#',
         ],
+        */
     ],
 
     /*
