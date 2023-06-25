@@ -11,6 +11,8 @@
 @section('content')
     <p>Listado de Calificaciones</p>
 
+
+
 @stop
 
 @section('css')

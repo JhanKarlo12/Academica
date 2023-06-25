@@ -5,11 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Facultad extends Model
+class Programa extends Model
 {
-    protected $table = 'facultades';
-    protected $primaryKey = 'cod_facultad';
+    protected $table = 'programas';
+    protected $primaryKey = 'cod_programa';
     public $timestamps = true;
-
-
 }
