@@ -32,7 +32,7 @@ class CiudadesSeeder extends Seeder
 
                  [
                 'cod_ciudad'=>'12347',
-                'nom_ciudad'=>'Neiva',
+                'nom_ciudad'=>'Cali',
                 'departamento'=>'33'   
                  ],
 
@@ -40,13 +40,13 @@ class CiudadesSeeder extends Seeder
             [
                 'cod_ciudad'=>'12348',
                 'nom_ciudad'=>'Bogotá',
-                'departamento'=>'35'
+                'departamento'=>'34'
             ],
 
                  [
                 'cod_ciudad'=>'12349',
-                'nom_ciudad'=>'Arauca',
-                'departamento'=>'36'
+                'nom_ciudad'=>'Ipiales',
+                'departamento'=>'31'
                  ]
 
 

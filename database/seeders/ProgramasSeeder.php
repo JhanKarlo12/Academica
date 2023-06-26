@@ -20,7 +20,7 @@ class ProgramasSeeder extends Seeder
             [
                 'cod_programa'=>'50',
                 'nom_programa'=>'Ingeniería de Sistemas',
-                'facultad'=>'30'      
+                'facultad'=>'10'      
             ],
 
 
@@ -44,9 +44,9 @@ class ProgramasSeeder extends Seeder
             ],
 
                  [
-                'cod_programa'=>'55',
+                'cod_programa'=>'54',
                 'nom_programa'=>'Arquitectura',
-                'facultad'=>'10'
+                'facultad'=>'30'
                  ]
 
 

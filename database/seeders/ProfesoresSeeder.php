@@ -50,7 +50,7 @@ class ProfesoresSeeder extends Seeder
 
                  [
                 'cod_barrio'=>'86',
-                'nom_profesor'=>'Luis',
+                'nom_profesor'=>'Jorge',
                 'cat_profesor'=>'Inglés',
                 
 

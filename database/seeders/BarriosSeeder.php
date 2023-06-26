@@ -49,7 +49,7 @@ class BarriosSeeder extends Seeder
             ],
 
                  [
-                'cod_barrio'=>'105',
+                'cod_barrio'=>'104',
                 'nom_barrio'=>'El Bosque',
                 'est_barrio'=>'3',
                 'comuna'=>'5'

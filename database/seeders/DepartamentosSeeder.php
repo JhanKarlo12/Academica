@@ -30,20 +30,16 @@ class DepartamentosSeeder extends Seeder
 
                  [
                 'cod_departamento'=>'33',
-                'nom_departamento'=>'Huila'
+                'nom_departamento'=>'Valle del cauca'
                  ],
 
 
             [
-                'cod_departamento'=>'35',
+                'cod_departamento'=>'34',
                 'nom_departamento'=>'Cundinamarca'
             ],
 
-                 [
-                'cod_departamento'=>'36',
-                'nom_departamento'=>'Arauca'
-                 ]
-
+                
 
           
                  ];

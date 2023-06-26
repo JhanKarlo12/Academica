@@ -21,23 +21,23 @@ class EstudiantesSeeder extends Seeder
                 'cod_estudiante'=>'0001',
                 'nom_estudiante'=>'Jhan',
                 'edad_estudiante'=>'22',
-                'fech_estudiante'=>'2003-05-07',
+                'fech_estudiante'=>'2004-05-07',
                 'sex_estudiante'=>'M',
                 'ciudad'=>'12345', 
                 'barrio'=>'101',
-                'programa'=>'53'     
+                'programa'=>'50'     
             ],
 
 
             [
                 'cod_estudiante'=>'0002',
                 'nom_estudiante'=>'Jhoan',
-                'edad_estudiante'=>'22',
-                'fech_estudiante'=>'2001-08-22',
+                'edad_estudiante'=>'24',
+                'fech_estudiante'=>'2002-08-22',
                 'sex_estudiante'=>'M',
                 'ciudad'=>'12348', 
-                'barrio'=>'101',
-                'programa'=>'52'   
+                'barrio'=>'102',
+                'programa'=>'50'   
             ],
 
                  [
@@ -48,7 +48,7 @@ class EstudiantesSeeder extends Seeder
                 'sex_estudiante'=>'F',
                 'ciudad'=>'12347', 
                 'barrio'=>'102',
-                'programa'=>'51'   
+                'programa'=>'50'   
                  ],
 
 
@@ -70,8 +70,8 @@ class EstudiantesSeeder extends Seeder
                 'fech_estudiante'=>'2002-03-16',
                 'sex_estudiante'=>'M',
                 'ciudad'=>'12345',
-                'barrio'=>'105',
-                'programa'=>'55' 
+                'barrio'=>'104',
+                'programa'=>'54' 
                  ]
 
 
